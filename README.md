@@ -1,23 +1,57 @@
 # 📊 Pandas Data Analysis Project
 
 ## 📌 Project Overview
-This project performs Exploratory Data Analysis (EDA) using Python to extract meaningful insights from raw data. It focuses on data cleaning, visualization, and identifying trends using Pandas and Seaborn.
+This project focuses on cleaning and analyzing a messy shipment logistics dataset using Python.  
+The dataset contained missing values, inconsistent text formatting, invalid numerical entries, and multiple date formats.
 
-## 🛠 Tools Used
+The project includes:
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Insights Extraction
+
+---
+
+## 🛠 Tools & Libraries Used
 - Python
 - Pandas
 - Seaborn
-- Jupyter Notebook
 
-## 📊 Key Insights
-- Cleaned and prepared raw dataset for analysis
-- Handled missing and duplicate values
-- Identified patterns and trends in data
-- Created visual insights using Seaborn
-- Derived business-oriented conclusions from dataset
+---
 
-## 🚀 Conclusion
-This project helped in understanding real-world data analysis and visualization techniques.
+## 🧹 Data Cleaning Performed
+✔ Handled missing values using `fillna()`  
+✔ Standardized text formatting using `.str.title()` and `.str.upper()`  
+✔ Converted date columns using `pd.to_datetime()`  
+✔ Fixed invalid negative values  
+✔ Cleaned inconsistent categorical data  
 
-## 🔗 Connect with me
-Feel free to check my work and connect on LinkedIn!
+---
+
+## ⚙ Feature Engineering
+Created new features such as:
+- `delivery_days`
+- `delivery_performance`
+- `cost_per_kg`
+- `shipment_route`
+
+---
+
+## 📊 EDA & Visualizations
+Performed:
+- Shipment status analysis
+- Carrier analysis
+- Freight cost distribution
+- Correlation heatmap
+- Outlier detection
+
+---
+
+## 📈 Key Insights
+- Fastfreight handled the highest number of shipments.
+- Freight cost increased with shipment weight.
+- Multiple data quality issues were identified and cleaned.
+- Extreme freight cost outliers were detected.
+
+- It also helped me develop practical problem-solving and analytical thinking skills using Pandas and Seaborn.
